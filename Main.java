@@ -76,7 +76,7 @@ class Calculations
 	public void LBMCalMale()throws IOException
 	{
 		BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
-		if (g.equals("M"))
+		if (g.equals("M") || g.equals("m"))
 		{
 			ibw=hcm-100;
 			System.out.println("\nIdeal Body Weight:"+ibw);
